@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-import dj-database-url
+import dj_database_url
 
 from pathlib import Path
 
@@ -27,7 +27,7 @@ SECRET_KEY = 'r!n=^ynk3_q9n2g)4lj22uyt8u_rird-f634bk$tj7w0#dwa38'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['meal-deals-project.herokuapp.com']
 
 
 # Application definition
