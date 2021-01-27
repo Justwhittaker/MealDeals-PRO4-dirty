@@ -28,7 +28,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'profiles',
-    'subscribe',
+    #'subscribe',
 
     # Other
 ]
